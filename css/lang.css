@@ -1,0 +1,100 @@
+.wyl{
+    position: absolute;
+    top: 500px;
+    height:250px;
+    margin-bottom: 800px;
+    width: 100%;
+}
+.lang{
+    position:relative;
+    height: fit-content;
+    width:95%;
+}
+.wyl h2{
+    color:white;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+    margin-left: 3% ;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+    display: flex;
+    justify-content: space-between;
+    width:25%;
+}
+.l_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:120%;
+    height:475px;   
+    position: absolute;
+    left: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.l_track{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    list-style: none;
+    position: relative;
+    width:95%;
+    height: 35%;
+    transition: transform 350ms ease-in;
+    justify-content: space-around;
+}
+.l_slide{
+    display: flex;
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:17%;
+    padding: 8px 8px;
+    flex-direction: column;
+    justify-content: center;
+}
+.l_slide a:hover {
+    z-index: 5;
+    transition: transform 200ms ease-in;
+    transform: translateY(10px) scale(1.25);
+}
+.l_slide:hover .w_img{
+    border-radius: 12px 12px 0px 0px;
+}
+.l_slide a:hover + .card{
+    display: block;
+    font-size: 15px;
+    z-index: 5;
+}
+
+.l_slide>a{
+    height: 100%;
+}
+.l_img{
+    padding:0;  
+    width: 100%;
+    height: inherit;
+    border-radius: 8px;
+}
+.l_btn{
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(80px);
+    background: transparent;
+    border: 0;
+}
+.l_btn_left{
+    left:26px;
+}
+.l_btn_right{
+    right: -35px;
+    z-index: 5;
+}
+.l_btn i{
+    transform: scale(3);
+    width:26px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}

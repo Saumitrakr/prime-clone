@@ -1,0 +1,100 @@
+.aos{
+    position: absolute;
+    top: 750px;
+    height:400px;
+    margin-bottom: 800px;
+    width: 100%;
+}
+.amzor{
+    position:relative;
+    height: fit-content;
+    width:95%;
+}
+.aos h2{
+    color:white;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+    margin-left: 3% ;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+    display: flex;
+    justify-content: space-between;
+    width:25%;
+}
+.amz_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:120%;
+    height:475px;   
+    position: absolute;
+    left: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.amz_track{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    list-style: none;
+    position: relative;
+    width:95%;
+    height: 80%;
+    transition: transform 350ms ease-in;
+    justify-content: space-around;
+}
+.amz_slide{
+    display: flex;
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:17%;
+    padding: 8px 8px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.amz_slide a:hover:has(.amz_slide) {
+    width:250%;
+    z-index: 5;
+}
+.amz_slide:hover .amz_img{
+    border-radius: 12px 12px 0px 0px;
+}
+/* .amz_slide a:hover + .card{
+    display: block;
+    font-size: 15px;
+    z-index: 5;
+} */
+
+.amz_slide>a{
+    height: 100%;
+}
+.amz_img{
+    padding:0;  
+    width: 100%;
+    height: inherit;
+    border-radius: 8px;
+}
+.amz_btn{
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(80px);
+    background: transparent;
+    border: 0;
+}
+.amz_btn_left{
+    left:26px;
+}
+.amz_btn_right{
+    right: -35px;
+    z-index: 5;
+}
+.amz_btn i{
+    transform: scale(3);
+    width:26px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}

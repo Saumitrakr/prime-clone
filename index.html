@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon.png" rel="shortcut icon"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet"> -->
+    <link rel="stylesheet" href="/Clone/css/carousel.css">
+    <link rel="stylesheet" href="/Clone/css/style.css">
+    <link rel="stylesheet" href="/Clone/css/watch.css">
+    <link rel="stylesheet" href="/Clone/css/recommendation.css">
+    <link rel="stylesheet" href="/Clone/css/lang.css">
+    <link rel="stylesheet" href="/Clone/css/amz.css">
+    <title>Prime Video</title>
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="navbar sticky">
+            <div class="left">
+                <img class="Awpj3x" src="https://m.media-amazon.com/images/G/01/digital/video/web/Logo-min.png"
+                    alt="Prime Video">
+            </div>
+            <div class="mid">
+                <ul>
+                    <li>Home
+                        <i class="fa-solid fa-angle-down"></i>
+                        <ul class="options">
+                            <li><a href="/Clone/index.html">All</a></li>
+                            <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_hom_c_9zZ8D2_1_1?contentType=movie&contentId=home">Movies</a></li>
+                            <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_mv_c_9zZ8D2_1_1?contentType=tv&contentId=home">TV Shows</a></li>
+                        </ul>
+                    </li>
+                    <li>Store
+                        <i class="fa-solid fa-angle-down"></i>
+                        <ul class="options">
+                            <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_TV_c_9zZ8D2_1_2?contentType=home&contentId=store">All</a></li>
+                            <li><a href="https://www.primevideo.com/storefront/ref=atv_me_hom_c_9zZ8D2_1_2?contentType=home&contentId=store&filterId=OFFER_FILTER%3DTVOD">Rent</a></li>
+                            <li><a href="https://www.primevideo.com/storefront/ref=atv_me_RentBuy_c_9zZ8D2_1_2?contentType=home&contentId=store&filterId=OFFER_FILTER%3DSUBSCRIPTIONS">Channels</a></li>
+                        </ul>
+                    </li>
+                    <li id="categ">Categories
+                        <i class="fa-solid fa-angle-down"></i>
+                        <div class="cat">
+                            <div class="lcat">
+                                <label>Genres</label>
+                                <div class="genres">
+                                    <ul>
+                                        <li><a href="https://www.primevideo.com/genre/action/ref=atv_hm_fin_c_YyAsEb_1_1?jic=8%7CEgNhbGw%3D">Action and Adventure</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/anime/ref=atv_hm_fin_c_YyAsEb_1_2?jic=8%7CEgNhbGw%3D">Anime</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/comedy/ref=atv_hm_fin_c_YyAsEb_1_3?jic=8%7CEgNhbGw%3D">Comedy</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/documentary/ref=atv_hm_fin_c_YyAsEb_1_4?jic=8%7CEgNhbGw%3D">Documentary</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/drama/ref=atv_hm_fin_c_YyAsEb_1_5?jic=8%7CEgNhbGw%3D">Drama</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/fantasy/ref=atv_hm_fin_c_YyAsEb_1_6?jic=8%7CEgNhbGw%3D">Fantasy</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/horror/ref=atv_hm_fin_c_YyAsEb_1_7?jic=8%7CEgNhbGw%3D">Horror</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/international/ref=atv_hm_fin_c_YyAsEb_1_8?jic=8%7CEgNhbGw%3D">International</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_YyAsEb_1_9?contentType=merch&contentId=kids&merchId=kids&jic=8%7CEgNhbGw%3D">Kid</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/music-videos-and-concerts/ref=atv_hm_fin_c_YyAsEb_1_10?jic=8%7CEgNhbGw%3D">Music Videos and Concerts</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/suspense/ref=atv_hm_fin_c_YyAsEb_1_11?jic=8%7CEgNhbGw%3D">Mystery and Thrillers</a></li>
+                                        <li><a href="https://www.primevideo.com/genre/romance/ref=atv_hm_fin_c_YyAsEb_1_12?jic=8%7CEgNhbGw%3D">Romance</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rcat">
+                                <label>Featured Collections</label>
+                                <div class="coll">
+                                    <ul>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_1?contentType=merch&contentId=in-merch-hindi-language&merchId=in-merch-hindi-language&jic=8%7CEgNhbGw%3D">Hindi</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_2?contentType=merch&contentId=in-merch-english-language&merchId=in-merch-english-language&jic=8%7CEgNhbGw%3D">English</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_3?contentType=merch&contentId=in-merch-telugu-language&merchId=in-merch-telugu-language&jic=8%7CEgNhbGw%3D">Telugu</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_4?contentType=merch&contentId=in-merch-tamil-language&merchId=in-merch-tamil-language&jic=8%7CEgNhbGw%3D">Tamil</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_5?contentType=merch&contentId=in-merch-malayalam-language&merchId=in-merch-malayalam-language&jic=8%7CEgNhbGw%3D">Malayalam</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_6?contentType=merch&contentId=in-merch-kannada-language&merchId=in-merch-kannada-language&jic=8%7CEgNhbGw%3D">Kannada</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_7?contentType=merch&contentId=in-merch-marathi-language&merchId=in-merch-marathi-language&jic=8%7CEgNhbGw%3D">Marathi</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_8?contentType=merch&contentId=in-merch-punjabi-language&merchId=in-merch-punjabi-language&jic=8%7CEgNhbGw%3D">Punjabi</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_9?contentType=merch&contentId=in-merch-gujarati-language&merchId=in-merch-gujarati-language&jic=8%7CEgNhbGw%3D">Gujarati</a></li>
+                                        <li><a href="https://www.primevideo.com/storefront/ref=atv_hm_fin_c_P0vE0y_2_10?contentType=merch&contentId=in-merch-bengali-language&merchId=in-merch-bengali-language&jic=8%7CEgNhbGw%3D">Bengali</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+                    <li>My Stuff
+                        <i class="fa-solid fa-angle-down"></i>
+                        <ul class="options">
+                            <li><a href="https://www.primevideo.com/mystuff/ref=atv_me_Inmerchbengalilanguage_c_9zZ8D2_1_4">All</a></li>
+                            <li><a href="https://www.primevideo.com/mystuff/watchlist/all/ref=atv_mys_wl_tab">Watchlist</a></li>
+                            <li><a href="https://www.primevideo.com/mystuff/library/all/ref=atv_mys_yvl_tab">Rentals</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><i class="fa-solid fa-magnifying-glass"></i> </li>
+                    <li>Ayush Raj</li>
+                    <li><img class="profile"
+                            src="https://m.media-amazon.com/images/G/02/CerberusPrimeVideo-FN38FSBD/adult-1.png"></li>
+                </ul>
+
+            </div>
+        </div>
+        
+    </div>    
+    <div>
+        <div class="carousel">
+            <button class="c_btn c_btn-left is_hidden">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <div class="c_container">
+                <ul class="c_track">
+                    <li class="c_slide curr_slide">
+                        <a><img class="c_img" src="img/cimg1.jpeg"></a>
+                        <div class="sec">
+                            <div class="details">
+                                <div class="rank">#7 in India</div>
+                                <img src="img/dcimg1_2.jpeg">
+                                <h2><img src="img/dcimg1.jpeg" alt="" class="normal"></h2>
+                            </div>
+                            <div class="des">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div class="prime">Included with Prime</div>
+                                <div class="ua">U/A 16+</div>
+                            </div>
+                            <div class="play">
+                                <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                <i class="fa fa-circle-play"></i>
+                                <div>Play S1 E1</div>
+                                <div>
+                                    <i class="fa fa-circle-plus"></i>
+                                    <i class="fa fa-circle-info"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="c_slide">
+                        <a><img class="c_img" src="img/cimg2.jpeg"></a>
+                        <div class="sec">
+                            <div class="details">
+                                <div class="rank">#6 in India</div>
+                                <img src="img/dcimg1_2.jpeg">
+                                <h2><img src="img/dcimg2.jpeg" alt="" class="normal"></h2>
+                            </div>
+                            <div class="des">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div class="prime">Included with Prime</div>
+                                <div class="ua">A</div>
+                            </div>
+                            <div class="play">
+                                <i class="fa fa-circle-play"></i>
+                                <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                <div>Play S1 E1</div>
+                                <div>
+                                    <i class="fa fa-circle-plus"></i>
+                                    <i class="fa fa-circle-info"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="c_slide">
+                        <a><img class="c_img" src="img/cimg3.jpeg" ></a>
+                        <div class="sec">
+                            <div class="details">
+                                <!-- <div class="rank">#7 in India</div>
+                                <img src="img/dcimg1_2.jpeg"> -->
+                                <h2><img src="img/dcimg3.jpeg" alt="" class="rent"></h2>
+                            </div>
+                            <div class="des">
+                                <i class="fa fa-bag-shopping"></i>
+                                <div class="prime">Available to Rent</div>
+                                <div class="ua">A</div>
+                            </div>
+                            <div class="play">
+                                <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                <button class="more">More Details</button>
+                                <div><i class="fa fa-circle-plus subs"></i></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="c_slide">
+                        <a><img class="c_img" src="img/cimg4.jpeg"></a>
+                        <div class="sec">
+                            <div class="details">
+                                <h2><img src="img/dcimg4.jpeg" alt="" class="normal" style="width: 35%;"></h2>
+                            </div>
+                            <div class="des">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div class="prime">Included with Prime</div>
+                                <div class="ua">A</div>
+                            </div>
+                            <div class="play">
+                                <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                <i class="fa fa-circle-play"></i>
+                                <div>Play S1 E1</div>
+                                <div>
+                                    <i class="fa fa-circle-plus"></i>
+                                    <i class="fa fa-circle-info"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="c_slide"><a><img class="c_img" src="img/cimg5.jpeg"></a></li>
+                    <li class="c_slide"><a><img class="c_img" src="img/cimg6.jpeg"></a></li>
+                    <li class="c_slide"><a><img class="c_img" src="img/cimg7.jpeg"></a></li>
+                    <li class="c_slide"><a><img class="c_img" src="img/cimg8.jpeg"></a></li>
+                    <li class="c_slide"><a><img class="c_img" src="img/cimg9.jpeg"></a></li>
+                    <li class="c_slide"><a><img class="c_img" src="img/cimg10.jpeg"></a></li>
+                    <li class="c_slide"><a><img class="c_img" src="img/cimg11.jpeg"></a></li>
+                    <li class="c_slide">
+                        <a><img class="c_img" src="img/cimg12.jpeg"></a>
+                        <div class="sec">
+                            <div class="details">
+                                <h2><img src="img/dcimg12.jpeg" alt="" class="normal" style="width:75%"></h2>
+                            </div>
+                            <div class="des">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div class="prime">Included with Prime</div>
+                                <div class="ua">A</div>
+                            </div>
+                            <div class="play">
+                                <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                <i class="fa fa-circle-play"></i>
+                                <div>Play S1 E1</div>
+                                <div>
+                                    <i class="fa fa-circle-plus"></i>
+                                    <i class="fa fa-circle-info"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <button class="c_btn c_btn-right">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+
+            <div class="c_nav">
+                <button class="c_indicator curr_slide"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+                <button class="c_indicator"></button>
+
+            </div>
+        </div>
+    </div>
+    <div class="content">
+
+        <div class="cwc">
+            <h2>Continue Watching</h2>
+            <div class="continue">
+                <button class="w_btn w_btn_left">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <div class="w_container">
+                    <ul class="w_track">
+                        <li class="w_slide watch_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img1.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img2.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Resume S2 E10</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Mirzapur</h3>
+                                <div class="dur">
+                                    <div class="year">2020</div>
+                                    <div class="ua">A</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img3.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img4.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img5.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img6.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img7.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img8.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img9.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img10.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img11.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img12.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img13.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img14.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/w_img15.jpeg"></a>
+                            <div class="card">
+                                <div class="wdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="wplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="dur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="intro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <button class="w_btn w_btn_right ">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="prm">
+            <h2><div class="pr">Prime</div> Recommended Movies</h2>
+            <div class="recom">
+                <button class="r_btn r_btn_left">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <div class="r_container">
+                    <ul class="r_track">
+                        <li class="r_slide recom_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img1.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="ryear">2023</div>
+                                    <div class="rtime">2 h 13 min </div>
+                                    <div class="rua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img2.jpeg"></a>
+                            <div class="card">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Resume S2 E10</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Mirzapur</h3>
+                                <div class="rdur">
+                                    <div class="year">2020</div>
+                                    <div class="ua">A</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img3.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img4.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img5.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="w_img" src="/Clone/img/r_img6.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img7.jpeg"></a>
+                            <div class="card">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img8.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="wprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img9.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img10.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img11.jpeg"></a>
+                            <div class="rcard">
+                                <div class=rwdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img12.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img13.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img14.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="r_slide">
+                            <a href=""><img class="r_img" src="/Clone/img/r_img15.jpeg"></a>
+                            <div class="rcard">
+                                <div class="rdes">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div class="rprime">Included with Prime</div>
+                                </div>
+                                <div class="rplay">
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                    <i class="fa fa-circle-play"></i>
+                                    <div>Play S1 E1</div>
+                                    <div>
+                                        <i class="fa fa-circle-plus"></i>
+                                        <i class="fa fa-circle-info"></i>
+                                    </div>
+                                </div>
+                                <h3>Sindhooram</h3>
+                                <div class="rdur">
+                                    <div class="year">2023</div>
+                                    <div class="time">2 h 13 min </div>
+                                    <div class="ua">U/A 13+</div>
+                                </div>
+                                <div class="rintro">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nisi.
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <button class="r_btn r_btn_right ">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="wyl">
+            <h2><div class="pr">Prime</div>Watch in Your Language</h2>
+            <div class="lang">
+                <button class="l_btn l_btn_left">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <div class="l_container">
+                    <ul class="l_track">
+                        <li class="l_slide lang_slide"><a><img src="/Clone/img/l_img1.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img2.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img3.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img4.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img5.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img6.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img7.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img8.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img9.jpeg" class="l_img"></a></li>
+                        <li class="l_slide"><a><img src="/Clone/img/l_img10.jpeg" class="l_img"></a></li>
+                    </ul>
+                </div>
+                <button class="l_btn l_btn_right">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="aos">
+            <h2><div class="pr">Prime</div>Amazon Original Series</h2>          
+            <div class="amzor">
+                <button class="amz_btn amz_btn_left">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <div class="amz_container">
+                    <ul class="amz_track">
+                        <li class="amz_slide org_slide"><a><img class="amz_img" src="/Clone/img/amz1.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz2.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz3.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz4.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz5.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz6.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz7.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz8.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz9.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz10.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz11.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz12.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz13.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz14.jpeg"></a></li>
+                        <li class="amz_slide "><a><img class="amz_img" src="/Clone/img/amz15.jpeg"></a></li>
+                    </ul>
+                </div>
+                <button class="amz_btn amz_btn_right">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    
+    <footer class="foot">
+        <div><img class="Awpj3x" src="https://m.media-amazon.com/images/G/01/digital/video/web/Logo-min.png"
+            alt="Prime Video"></div>
+        <ul>
+            <li>Terms and Privacy Notice</li>
+            <li>Send us Feedback</li>
+            <li>Help</li>
+            <li>© 1996-2023, Amazon.com, Inc. or its affiliates</li>
+        </ul>
+    </footer>
+    <script src="/Clone/js/carousel.js"></script>
+    <script src="/Clone/js/watch.js"></script>
+    <script src="/Clone/js/recom.js"></script>
+    <script src="/Clone/js/navbar.js"></script>
+    <script src="/Clone/js/lang.js"></script>
+    <script src="/Clone/js/amz.js"></script>
+</body>
+
+</html>
